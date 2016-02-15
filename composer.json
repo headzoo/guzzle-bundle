@@ -1,5 +1,5 @@
 {
-    "name": "misd/guzzle-bundle",
+    "name": "headzoo/guzzle-bundle",
     "type": "symfony-bundle",
     "description": "Integrates Guzzle into your Symfony2 application",
     "keywords": ["guzzle", "bundle", "http", "http client", "rest", "client", "web service", "curl", "api"],
@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/framework-bundle": "~2.2",
+        "symfony/framework-bundle": "~2.2|3.0.*",
         "guzzle/guzzle": "~3.0"
     },
     "suggest": {
