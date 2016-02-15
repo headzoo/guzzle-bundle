@@ -10,8 +10,7 @@
 
     <services>
         <service id="guzzle.service_builder" class="%guzzle.service_builder.class%">
-                   <factory class="%guzzle.service_builder.class%" method="factory" />
-        </service>
+            <factory class="%guzzle.service_builder.class%" method="factory" />
             <argument type="string" id="guzzle.service_builder.configuration_file">%guzzle.service_builder.configuration_file%</argument>
         </service>
     </services>
